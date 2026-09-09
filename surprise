@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>happy 11 ❤️</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="hearts"></div>
+
+    <div class="container">
+
+        <div id="welcome">
+            <h1>To my afkaka ❤️</h1>
+
+            <p>
+                varieity ayikille
+            </p>
+
+            <button onclick="openSurprise()">
+                Open  💌
+            </button>
+        </div>
+
+
+        <div id="card" class="hidden">
+
+            <h1>Happy 11 ❤️</h1>
+
+            <p class="subtitle">
+                To my ellam ellam
+            </p>
+
+            <div class="photo-box">
+                <span>Our Photo ❤️</span>
+            </div>
+
+            <p class="message">
+                i luv uh kore koreee iyylle inte ellam i know korch hard days ayrnn but its 
+                oky ink iyy indallo we will be fyn lle waiting for that long warm kootipidi 
+            </p>
+
+            <p class="message">
+                no matter what we will sort out lle  ❤️
+            </p>
+
+            <h2>big bigg muahh ini neritt thera 💕</h2>
+
+            <p>
+                Happy  11 months and 4 years! 🥰
+            </p>
+
+            <div class="heart">
+                ❤️
+            </div>
+
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
