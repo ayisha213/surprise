@@ -1,0 +1,173 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    font-family: Arial, sans-serif;
+
+    background: linear-gradient(
+        135deg,
+        #ff9a9e,
+        #fad0c4
+    );
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    overflow: hidden;
+}
+
+.container {
+    width: 90%;
+    max-width: 650px;
+
+    text-align: center;
+}
+
+#welcome,
+#card {
+    background: rgba(255, 255, 255, 0.92);
+
+    padding: 45px 30px;
+
+    border-radius: 25px;
+
+    box-shadow:
+        0 15px 40px rgba(0, 0, 0, 0.2);
+
+    animation: appear 1.2s ease;
+}
+
+h1 {
+    color: #e91e63;
+    font-size: 42px;
+    margin-bottom: 20px;
+}
+
+h2 {
+    color: #e91e63;
+    margin: 25px 0;
+}
+
+p {
+    color: #555;
+    font-size: 18px;
+    line-height: 1.7;
+}
+
+.subtitle {
+    font-style: italic;
+    margin-bottom: 25px;
+}
+
+.message {
+    margin: 20px 0;
+}
+
+button {
+    border: none;
+
+    background: #e91e63;
+    color: white;
+
+    padding: 15px 30px;
+
+    border-radius: 30px;
+
+    font-size: 18px;
+
+    cursor: pointer;
+
+    margin-top: 25px;
+
+    transition: 0.3s;
+}
+
+button:hover {
+    transform: scale(1.08);
+    background: #c2185b;
+}
+
+.hidden {
+    display: none;
+}
+
+.photo-box {
+    width: 100%;
+    height: 250px;
+
+    border-radius: 20px;
+
+    background: linear-gradient(
+        135deg,
+        #ff758c,
+        #ff7eb3
+    );
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    color: white;
+
+    font-size: 25px;
+
+    margin: 25px 0;
+}
+
+.heart {
+    font-size: 60px;
+
+    animation: heartbeat 1s infinite;
+}
+
+@keyframes heartbeat {
+
+    0% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(1.3);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+
+}
+
+@keyframes appear {
+
+    from {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+
+}
+
+@media(max-width: 600px) {
+
+    h1 {
+        font-size: 32px;
+    }
+
+    p {
+        font-size: 16px;
+    }
+
+    #welcome,
+    #card {
+        padding: 30px 20px;
+    }
+
+}
